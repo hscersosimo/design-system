@@ -1,8 +1,6 @@
 # Design System
 By Hernan Cersosimo
 
-https://uxipsos-designsystem.herokuapp.com/
-
 Step by step instructions. Most of what you'll see here is for MacOS environments.
 
 ## Install Git & Heroku CLI
@@ -20,10 +18,15 @@ Go to https://sass-lang.com/install and run this code in your terminal: <code>np
 In the terminal, go to the <code>/css</code> folder and type <code>sass --watch /sass:/public</code>
 
 ## Push to Heroku & Github
-1. The usual stuff:
+You'll need to connect your GitHub account with this repository first.
+
+The usual stuff - follow these steps to commit changes to git first, then heroku, and finally GitHub. 
 ```
 git add .
 git commit 'something'
 git push heroku main
 git push -u origin main
 ```
+
+## Public URL
+Available at https://uxipsos-designsystem.herokuapp.com/
